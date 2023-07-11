@@ -1,0 +1,108 @@
+@import url(https://fonts.googleapis.com/css?family=Poppins:300);
+
+body{
+    height: 100vh;
+    overflow: hidden;
+    font-family: "Poppins";
+  background: #0e2941;
+}
+
+.caja-atras{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    width: 75px;
+    height: 75px;
+    background: rgb(0, 0, 0 , .5);
+    margin: 30px;
+}
+
+.caja-atras:hover{
+    transition-duration: 1s;
+    transform: scale(1.2);
+    box-shadow: 0 10px 10px rgba(255, 255, 255, .8);
+}
+
+.atras{
+    width: 50px;
+    height: 50px;
+    margin: 30px;
+}
+
+.flecha- {
+    display: flex;
+    align-items: start;
+}
+
+.login-page {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    padding: 8% 0 0;
+    margin: auto;
+}
+
+.login-page img{
+    width: 70px;
+    height: auto;
+}
+
+.form {
+    position: relative;
+    z-index: 1;
+    background: #FFFFFF;
+    max-width: 400px;
+    margin: 0 auto 100px;
+    padding: 45px;
+    text-align: center;
+    border-radius: 15px;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+.form input {
+    font-family: "Poppins", sans-serif;
+    outline: 0;
+    background: #f2f2f2;
+    width: 100%;
+    border: 0;
+    border-radius: 7px;
+    margin: 0 0 15px;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 14px; 
+}
+
+.form button {
+    font-family: "Poppins", sans-serif;
+    text-transform: uppercase;
+    outline: 0;
+    background: #234666;
+    width: 100%;
+    border: 0;
+    padding: 15px;
+    color: #FFFFFF;
+    border-radius: 7px;
+    font-size: 14px;
+    -webkit-transition: all 0.3 ease;
+    transition: all 0.3 ease;
+    cursor: pointer;
+}
+
+.form button:hover,.form button:active,.form button:focus {
+    background: #0e2941;
+}
+
+.form .message {
+    margin: 15px 0 0;
+    color: #b3b3b3;
+    font-size: 12px;
+}
+
+.form .message a {
+    color: #234666;
+    text-decoration: none;
+}
+
+.form .register-form {
+    display: none;
+}
